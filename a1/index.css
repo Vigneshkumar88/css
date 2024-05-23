@@ -1,0 +1,118 @@
+
+
+.container{
+    animation-name: color1;
+    animation-duration: 5s;
+    background-color: aqua;
+    padding: 20px;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+
+.container > h1{
+    animation-name: text;
+    text-align: center;
+    animation-duration: 5s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+
+.container2{
+    animation-name: text-ani;
+    animation-duration: 5s;
+    background-color: aqua;
+    padding: 20px;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin-left: 70%;
+}
+
+.container3{
+    animation-name: text-ani;
+    animation-duration: 5s;
+    background-color: aqua;
+    padding: 20px;
+    margin-left: 70%;
+   animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.container4{
+    animation-name: text-ani;
+    margin-left: 70%;
+    animation-duration: 5s;
+    background-color: aqua;
+    padding: 20px;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+
+
+
+
+@keyframes color1 {
+
+    0%{
+        background-color: aqua;
+        }
+
+    25%{
+        background-color: aquamarine;
+
+    }
+
+    50%{
+        background-color: blueviolet;
+    }
+
+    75%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color: cadetblue;
+    }
+    
+}
+
+@keyframes text{
+    0%{
+        color: blanchedalmond
+    };
+        
+
+
+    
+
+    25%{
+        color: blueviolet
+
+    };
+
+    50%{
+        color:black
+    };
+
+    75%{
+        color: brown
+    };
+    
+
+    100%{
+        color: chartreuse
+    };
+
+}
+
+@keyframes text-ani{
+    from{
+        margin-left: 70%;
+
+    }
+
+    to{
+        margin-left: 0%;
+    }
+}
