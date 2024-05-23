@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(70,121,9,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.timeline{
+   
+    position: relative;
+    
+    height: 100vh;
+}
+
+.container1{
+    position: relative;
+    width: 40%;
+    padding: 20px;
+    background-color:aquamarine;
+    margin: 5px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+
+
+    
+}
+.container2{
+    position: relative;
+    width: 40%;
+    padding: 20px;
+    background-color:aquamarine;
+    margin: 5px;
+    border-radius: 5px;
+    top: 140px;
+    margin-left: 40px;
+
+    
+}
+
+
+
+.timeline::before{
+    content: '';
+    width: 3px;
+    height: 90%;
+    background-color: rgb(17, 250, 4);
+    position: absolute;
+    left: 50%;
+    animation-name: line;
+    animation-duration: 3s;
+    opacity: 50%;
+}
+
+
+
+.right-container1{
+    padding: 20px;
+    left: 55%;
+    background-color: aquamarine;
+    position: absolute;
+    margin: 5px;
+    top: 140px;
+    border-radius: 5px;
+    margin-right: 40px;
+    
+}
+
+.right-container2{
+    padding: 20px;
+    left: 55%;
+    background-color: aquamarine;
+    position: absolute;
+    margin: 5px;
+    border-radius: 5px;
+    bottom: 150px;
+    margin-right: 40px;
+    
+}
+
+@keyframes line{
+    from{
+        height: 0%;
+    }
+   
+    to{
+        height: 90%;
+    }
+}
+
+
+
+/* .container2{
+    position: relative;
+    width: 40%;
+    padding: 20px;
+    background-color:aquamarine;
+}
+
+.container3{
+    position: relative;
+    width: 40%;
+    padding: 20px;
+    background-color:aquamarine;
+}
+
+.container4{
+    position: relative;
+    width: 40%;
+    padding: 20px;
+    background-color:aquamarine;
+} */
